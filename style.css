@@ -1,0 +1,242 @@
+body{
+    background-color: #FCAEAE;
+    text-align: center;
+    
+}
+.navelement{
+    margin-left: 46%;
+}
+.nav{
+    background-color: #F69E4C;
+}
+.nav-item{
+    margin-left: 30%;
+}
+.co-img{
+    height: 40em;
+    width: 100%;
+}
+.cal-text{
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.aboutus{
+    background-color: #F69E4C;
+    text-align: center;
+    padding-top: 6%;
+}
+.abouttext{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.dbed{
+    margin-top: 5%;
+    width: 70%;
+    height: 30em;
+}
+.row{
+    width: 100%;
+}
+.deals{
+    background-color: #FCAEAE;
+    text-align: center;
+    
+}
+.card{
+    margin-bottom: 5%;
+    margin-left: 13%;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgb(76, 86, 90);
+}
+
+h1{
+    font-family: 'Lilita One', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    
+}
+h2{
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Caprasimo', cursive;
+    font-size: 40px;
+}
+h3{
+    color: rgb(0, 4, 4);
+    margin-bottom: 3%;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+
+}
+h4{
+    font-family: 'Satisfy', cursive;
+}
+.features{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    padding-top: 4%;
+}
+.fa-solid{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+
+.rowfeat{
+    margin-top: 6%;
+}
+.contact{
+   padding-top: 8%;
+    text-align: center;
+}
+.connect{
+    margin-bottom: 7%;
+}
+
+.map{
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+.email{
+    background-color: #f69e4c58;
+   margin-bottom: 5%;
+    border-radius: 25px;
+    padding: 4%;
+}
+.contact2{
+    background-color: #f69e4c58;
+    border-radius: 25px;
+    padding: 4%;
+}
+hr{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.service{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 3%;
+    border-radius: 60px;
+    background-color: #F69E4C;
+}
+
+.cleans1{
+    width: 75%;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgb(76, 86, 90);
+    margin-bottom: 4%;
+  
+    
+}
+.cleans2{
+    height: 30em;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgb(76, 86, 90);
+    margin-bottom: 4%;
+}
+.contact{
+    margin-left: 0.5%;
+}
+
+
+
+
+.eff {
+    --s: 15px;  /* size of the frame */
+    --b: 2px;   /* border thickness */
+    --w: 300px; /* width of the image */
+    --c: #7B3B3B;
+    
+    width: var(--w);
+    aspect-ratio: 1;
+    object-fit: cover;
+    padding: calc(2*var(--s));
+    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+    background:
+      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+    outline: calc(var(--w)/2) solid #0009;
+    outline-offset: calc(var(--w)/-2 - 2*var(--s));
+    transition: .4s;
+    cursor: pointer;
+  }
+  .eff:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: calc(var(--s)/-2);
+    --_i: calc(100% - 2*var(--s));
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:993px) {
+    .co-img{
+        width: 100%;
+        height: 20em;
+       
+    }
+    .cal-text{
+        position: absolute;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 20%;
+        
+    }
+    h2{
+        font-size: 40px;
+    }
+    .abouttext{
+        margin-top: 5%;
+        
+        height: 30em;
+    }
+    .dbed{
+        margin-top: 2%;
+        width: 90%;
+        height: 22em;
+    }
+    .maps{
+        width: 80%;
+        margin-right: 5%;
+        border-radius: 20px;
+    }
+    .cleans2{
+        height: 20em;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 5%;
+    }
+   .coraltext3{
+    color: #F69E4C;
+    font-size: 25px;
+    margin-top: 9%;
+    font-family: 'Satisfy', cursive;
+   }
+   .coraltext2{
+    font-family: 'Satisfy', cursive;
+   }
+   
+  }
